@@ -1,0 +1,56 @@
+body {
+	font-family: Hind, sans-serif;
+}
+
+.hero-box {
+  background-image: url(img/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 300px 0; 
+	color: white;
+	font-size: 24px;
+}
+
+.nav {
+	background-color: #FFFFFF;
+	font-family:sans-serif;
+	font-size: 20px;
+}
+
+.nav > a {
+	height: 100%;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+	transform: scale(1.09); 
+	z-index: 1;
+}
+
+.boat-box > div {
+	margin-bottom: 20px;
+}
+
+footer {
+	padding: 40px 0px;
+}
+
+.bg-color-sky-light {
+	background: #fafafa;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.row {
+	padding: 20px 0;
+}
+
+.row > div {
+	margin: 10px 0;
+}
